@@ -16,7 +16,7 @@
 
 **Leonard Digges**  
 Leonard Digges (c.1515 – c.1559), mathematician and cartographer, was the son of James Digges of Digges Court and Brome, Barham, and Philippa Egham of Chart. His father was the High Sheriff of Kent between 1510-11 and his family were substantial landowners. [His father's will https://discovery.nationalarchives.gov.uk/details/r/D949652]
-<param ve-image url="https://upload.wikimedia.org/wikipedia/commons/d/d4/Pantometria_by_Leonard_Digges_1591.jpg" label="Pantometria by Leonard Digges 1591" attribution="Leonard Digges. Engraver unknown. Printed by Abell Jeffes, London., Public domain, via Wikimedia Commons">
+<param ve-image url="https://upload.wikimedia.org/wikipedia/commons/7/76/Digges_Court_-_geograph.org.uk_-_408332.jpg" attribution="Robin Webster / Digges Court">
 <param ve-map center="Q1836548" zoom="10">
 
 
@@ -44,6 +44,7 @@ was the first to explain the Copernican system (an astronomical model developed 
 <param ve-image url="https://upload.wikimedia.org/wikipedia/commons/3/3e/ThomasDiggesmap.JPG" label="Thomas Digges map" attribution="Thomas Digges (1546?-1595), Public domain, via Wikimedia Commons">
 
 He was also the first to postulate the dark night sky paradox, which says that if there is an infinite number of stars distributed in an infinitely large space then such a universe would be bright rather than dark e.g. any line of sight from the Earth would end on the surface of a star and so the night sky should be completely illuminated and bright.
+<param ve-image url="https://upload.wikimedia.org/wikipedia/commons/d/d4/Pantometria_by_Leonard_Digges_1591.jpg" label="Pantometria by Leonard Digges 1591" attribution="Leonard Digges. Engraver unknown. Printed by Abell Jeffes, London., Public domain, via Wikimedia Commons">
 
 ### Bibliography
 
