@@ -1,52 +1,54 @@
 <a href="https://juncture-digital.org"><img src="https://juncture-digital.org/images/ve-button.png"></a>
 
-<param ve-config 
-       title="Girl with a Pearl Earring"
-       author="JSTOR Labs team"
-       banner="https://iiif.juncture-digital.org/banner/?url=https://upload.wikimedia.org/wikipedia/commons/4/47/Bartholomeus_Johannes_van_Hove%2C_Het_Mauritshuis_te_Den_Haag.jpg" 
-       layout="vertical">
+<param ve-config title="Leonard and Thomas Digges" author="Arnav Sharma" layout="vtl" banner="/images/banners/16c.jpg">
 
-<!-- Entities discussed throughout the essay are typically defined before the essay text and
-     are thus available in all text.  Entity identifiers (QIDs) can be found in either
-     Wikipedia or Wikidata (https://www.wikidata.org)> -->
-<param ve-entity eid="Q185372"> <!-- Girl with a Pearl Earring painting -->
-<param ve-entity eid="Q41264"> <!-- Johannes Vermeer -->
-<param ve-entity eid="Q221092"> <!-- Mauritshuis -->
-<param ve-entity eid="Q36600"> <!-- The Hague -->
+<param ve-entity eid="Q8034080" aliases="Wootton">
+<param ve-entity eid="Q2160826" aliases="Cranbrook">
+<param ve-entity eid="Q1836548" aliases="Barham">
+<param ve-entity eid="Q26369368" aliases="Hartridge">
+<param ve-entity eid="Q179224" aliases="Dover">
+<param ve-entity eid="Q375314" aliases="Folkestone">
+<param ve-entity eid="Q2470003" aliases="Chart">
+<param ve-entity eid="Q105776177" aliases="Brome">
+<param ve-entity eid="Q2297876" aliases="Chevening">
 
-# Sample visual essay
+#
 
-This is a sample visual essay demonstrating a few key features of a Visual Essay. Additional [Documentation](https://github.com/JSTOR-Labs/juncture/wiki) and [examples](https://jstor-labs.github.io/juncture-examples) are available for reference.
-<param ve-image 
-       manifest="https://iiif.juncture-digital.org/manifest/6dd738aed85597cac540ad31dd5818e86ef7f2918c7b43a9eb3123d5538e6e4c">
+**Leonard Digges**  
+Leonard Digges (c.1515 – c.1559), mathematician and cartographer, was the son of James Digges of Digges Court and Brome, Barham, and Philippa Egham of Chart. His father was the High Sheriff of Kent between 1510-11 and his family were substantial landowners. [His father's will https://discovery.nationalarchives.gov.uk/details/r/D949652]
+<param ve-image url="https://upload.wikimedia.org/wikipedia/commons/d/d4/Pantometria_by_Leonard_Digges_1591.jpg" label="Pantometria by Leonard Digges 1591" attribution="Leonard Digges. Engraver unknown. Printed by Abell Jeffes, London., Public domain, via Wikimedia Commons">
+<param ve-map center="Q1836548" zoom="10">
 
-# Basic usage
+At the age of 30, Leonard was charged with responsibility for coastal defence between Dover and Folkestone in 1545 and took part in the unsuccessful rebellion led by the Protestant Thomas Wyatt. He was convicted of high treason and sentenced to death for his part in the rebellion, but he received a pardon in April 1554. His land and goods were taken and he was fined 400 marks. It was to take him almost to the end of his life to pay this off.
+<param ve-image url="https://upload.wikimedia.org/wikipedia/commons/0/09/SirThomasWyatt01.jpg" label="Thomas Wyatt" attribution="Francesco Bartolozzi, Public domain, via Wikimedia Commons">
 
-## Image
+Leonard married Bridget Wilford of Hartridge, near Cranbrook and had several children, including Thomas who expanded on much of his father's works and made many contributions to astronomy.
 
-_Girl with a Pearl Earring_ (Dutch: Meisje met de parel) is an oil painting by Dutch Golden Age painter Johannes Vermeer, 
-dated c. 1665. Going by various names over the centuries, it became known by its present title towards the end of the 
-20th century after the earring worn by the girl portrayed there.[^1]
-<param ve-image 
-       label="Girl with a Pearl Earring" 
-       description="painting by Johannes Vermeer" 
-       license="public domain" 
-       url="https://upload.wikimedia.org/wikipedia/commons/0/0f/1665_Girl_with_a_Pearl_Earring.jpg">
+Leonard published an almanac entitled _A prognostication of Right Good Effect, Fructfully Augmented_ of which there are surviving fragments of a sheet for Kent dated 1556. [^ref]
 
-## Map
+Leonard is credited with the invention of the theodolite, a surveying instrument used to obtain precise angular measurements for triangulation and also according to his son, the reflecting telescope, or refracting telescope as part of his theodolite to improve accuracy over long distances of his surveying work.
 
-The work has been in the collection of the Mauritshuis in The Hague since 1902 and has been the subject of various 
-literary treatments. In 2006, the Dutch public selected it as the most beautiful painting in the Netherlands.
-<param ve-map center="Q36600" zoom="11" prefer-geojson>
+<param ve-map center="Q8034080" zoom="15">
 
-## Multiple viewers
+**Thomas Digges**  
+Thomas Digges (1546–1595) probably grew up on his father's estate at Wootton, near Canterbury, until his father's land was confiscated in 1554. Although the land was eventually restored to his father, Thomas's right to inherit the land was withheld.
 
-Multiple viewers may be defined for a single paragraph of text.  The first viewer defined is displayed as the default viewer.  
-Others are selectable using icons displayed in the top right margin of the paragraph.
-<param ve-image 
-       manifest="https://iiif.juncture-digital.org/manifest/6dd738aed85597cac540ad31dd5818e86ef7f2918c7b43a9eb3123d5538e6e4c">
-<param ve-map center="Q36600" zoom="11">
+In 1582, Thomas was appointed commissioner for Dover Harbour and advised on its construction, recommending 'earth bayes' rather than 'planked wourkes' after Folkestone, which had been supplying stone to Dover, refused to send any more.[^ref] It was his foresight that saved the town around 5,000 marks.
 
-# References
 
-[^1]: [Wikipedia: Girl with a Pearl Earring](https://en.wikipedia.org/wiki/Girl_with_a_Pearl_Earring)
+was the first to explain the Copernican system (an astronomical model developed by Nicolaus Copernicus, which was substantially correct and gave a correct cause of the seasons, and accurately predicts relative distances of planets from the Sun) in English. He also made his own additions, disagreeing with the idea of a fixed shell of immovable stars, but proposed an infinite number of stars at varying distances.
+<param ve-image url="https://upload.wikimedia.org/wikipedia/commons/3/3e/ThomasDiggesmap.JPG" label="Thomas Digges map" attribution="Thomas Digges (1546?-1595), Public domain, via Wikimedia Commons">
+
+He was also the first to postulate the dark night sky paradox, which says that if there is an infinite number of stars distributed in an infinitely large space then such a universe would be bright rather than dark e.g. any line of sight from the Earth would end on the surface of a star and so the night sky should be completely illuminated and bright.
+
+### Bibliography
+
+Johnston, Stephen. 'Leonard Digges' _Oxford Dictionary of National Biography_. 2004.
+Johnston, Stephen. 'Thomas Digges' _Oxford Dictionary of National Biography_. 2009.
+
+### References
+
+[^ref]: Johnston, Stephen. 'Leonard Digges' _Oxford Dictionary of National Biography_. 2004.
+[^ref]:  Macdonald, A. 'Plans of Dover Harbour in the Sixteenth century', _Archaeologia Cantiana_ 49. 1937, p.116.
+[^ref]: Johnston, Stephen. 'Thomas Digges' _Oxford Dictionary of National Biography_. 2009.
+
