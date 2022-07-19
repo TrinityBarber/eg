@@ -32,6 +32,7 @@ Leonard published an almanac entitled _A prognostication of Right Good Effect, F
 Leonard is credited with the invention of the theodolite, a surveying instrument used to obtain precise angular measurements for triangulation and also according to his son, the reflecting telescope, or refracting telescope as part of his theodolite to improve accuracy over long distances of his surveying work.
 
 <param ve-map center="Q8034080" zoom="15">
+<param ve-image url="https://upload.wikimedia.org/wikipedia/commons/a/aa/Chevening_-_geograph.org.uk_-_2295481.jpg" attribution="Chevening by Ian Capper, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons">
 
 **Thomas Digges**  
 Thomas Digges (1546–1595) probably grew up on his father's estate at Wootton, near Canterbury, until his father's land was confiscated in 1554. Although the land was eventually restored to his father, Thomas's right to inherit the land was withheld.
